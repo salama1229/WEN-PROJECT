@@ -1,0 +1,199 @@
+/* {
+    color: royalblue;
+} 
+
+h1{
+    color:red;
+}
+h1{
+    border: solid red 100px;
+    padding:  50px;
+     margin:  50px; 
+
+    
+}
+
+/* h1{
+    border: dashed red 10px;
+} */ /*
+h2{
+    border-top: dotted red 10px;
+}
+/*   لو عندي كلاس واحد لكذ عنصر من نوع مختلف وعاوز اعمل نوع واحد اكتب اسم 
+النوع قبل النقطة الدوت هنا هيعمل ال h1 بس  */
+/* نفس الكلام بينطبق على الid  */
+/* h1.as{ */
+ /*   color: darkmagenta;
+}
+*//*
+.n{
+    color: red;
+}
+body{
+    background-color: burlywood;
+}
+.t{
+    color: rebeccapurple;
+}
+        * /* هنا هشتغل على الكل العناصر اللي مدتلهاش حاجة  */  
+  /*  color: royalblue;/* كلهم هيبقى لونهم  */
+ body {
+    background-color: #f4f4f4;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body > table {
+    width: 80%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table.list {
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even), table.list thead > tr {
+    background-color: #f8f8f8;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 30%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons {
+    text-align: right;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #007bff;
+    margin-right: 4px;
+}
+
+table#employeeList tbody td:nth-child(5) a:first-child {
+    color: #fff;
+    background-color: #28a745;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 4px;
+}
+
+table#employeeList tbody td:nth-child(5) a:last-child {
+    color: #fff;
+    background-color: #dc3545;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.form {
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.h1 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.h1 h1 {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.add-data-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.add-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+.save-button, .back-button {
+    width: 30%;
+    max-width: 200px;
+    padding: 10px;
+    margin: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.save-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.save-button:hover {
+    background-color: #218838;
+}
+
+.back-button {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.back-button:hover {
+    background-color: #5a6268;
+}
+
+.form label {
+    color: #333;
+    font-weight: bold;
+}
+
+.form input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
